@@ -7,19 +7,19 @@ title: Skills
 subtitle: null
 active: true
 feature:
-  - description: 90%
+  - description: ''
     icon: r-project
     icon_pack: fab
     name: R
-  - description: 100%
+  - description: ''
     icon: chart-line
     icon_pack: fas
     name: Statistics
-  - description: 100%
+  - description: ''
     icon: chart-pie
     icon_pack: fas
     name: Interactive Visualization
-  - description: 100%
+  - description: ''
     icon: chalkboard-teacher
     icon_pack: fas
     name: Teaching
