@@ -12,7 +12,7 @@ feature:
     icon_pack: fab
     name: R
   - description: ""
-    icon: analytics
+    icon: dollar-sign
     icon_pack: fas
     name: Cost Analysis
   - description: ""
