@@ -18,7 +18,7 @@ external_link: ""
 url_slides: ""
 subtitle: SCI-IEQCC
 tags:
-  - SCI-IEQCC
+  - Consortium
 links:
   - icon: twitter
     icon_pack: fab
