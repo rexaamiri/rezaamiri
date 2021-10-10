@@ -1,18 +1,15 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-  tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin
-  condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus
-  urna, suscipit quis sapien eu, pulvinar tempor diam.
+abstract: Presented the result of the data collected from April 2019 until December 2020.
 slides: example
 url_pdf: ""
 summary: An example talk using Wowchemy's Markdown slides feature.
-title: Example Talk
-location: Wowchemy HQ
-date: 2030-06-01T13:00:00Z
-date_end: 2030-06-01T15:00:00Z
-all_day: false
-event: Wowchemy Conference
-event_url: https://example.org
+title: Tissue Integrity in Patients with Spinal Cord Injury
+location: Toronto Rehab Institute Lyndhurst Centre
+date: 2021-10-10T14:14:41.162Z
+date_end: 2021-10-10T14:14:42.490Z
+all_day: true
+event: IES
+event_url: www.zoom.us
 featured: false
 authors: []
 url_video: ""
@@ -28,7 +25,7 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/RexaAmiri
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2021-10-10T14:15:17.464Z
 tags: []
 projects:
   - example
