@@ -5,7 +5,7 @@ headless: true
 weight: 30
 title: Skills
 subtitle: null
-active: false
+active: true
 feature:
   - description: 90%
     icon: r-project
