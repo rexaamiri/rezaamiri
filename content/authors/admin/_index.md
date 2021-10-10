@@ -58,13 +58,11 @@ highlight_name: true
 ---
 I am currently a postdoctoral fellow at KITE Toronto Rehabilitation Institute, University Health Network, under the supervision of Dr. Cathy Craven who is a senior scientist at TRI and a professor at the University of Toronto. 
 
+Our main research and quality improvement activities focus on two projects: [The Spinal Cord Injury Implementation and Quality Care Consortium](https://www.sciconsortium.ca/) [](https://www.sciconsortium.ca/)and Cardiometabolic Care. My main inputs to these projects are:
 
+* Develop guidelines for conducting systematic reviews in the field of spinal cord injury
+* Develop interactive visual analytics using R Shiny and Power BI
+* Conduct statistical analyses of the quality of health care data and co-author reports to the Ministry
+* Develop, maintain, and manage the database of collected data from six domains and the NRS dataset
 
-* Applied knowledge and experience in evidence synthesis (SLR, MA, NMA) of economic and medical literature 
-* Screening, data abstraction, quality appraisal, generalizability evaluation, summarization, and analysis of literature
-* Knowledge and experience in economic evaluation modeling including CEA, CUA, and CBA
-* Expert in data visualization and quantitative data analysis
-
-
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/.pdf" "newtab" >}}resumé{{< /staticref >}}.
