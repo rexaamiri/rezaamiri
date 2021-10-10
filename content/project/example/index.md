@@ -12,6 +12,8 @@ summary: |-
   * Stakeholder Engagement
 url_video: ""
 date: 2021-10-10T13:57:14.052Z
+categories:
+  - SCI-IEQCC
 external_link: ""
 url_slides: ""
 subtitle: SCI-IEQCC
@@ -24,7 +26,7 @@ links:
     url: https://twitter.com/SCIIEQCC
 image:
   caption: The Consortium website
-  focal_point: Smart
+  focal_point: CENTER
   filename: sci-ieqcc.png
 url_code: ""
 ---
