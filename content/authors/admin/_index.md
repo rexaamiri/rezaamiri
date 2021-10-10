@@ -59,7 +59,7 @@ highlight_name: true
 ---
 I am a postdoctoral fellow at KITE Toronto Rehabilitation Institute, University Health Network, under the supervision of Dr. Cathy Craven who is a senior scientist at TRI and a professor at the University of Toronto. 
 
-Our main research and quality improvement activities focus on two projects: [The Spinal Cord Injury Implementation and Quality Care Consortium](https://www.sciconsortium.ca/) [](https://www.sciconsortium.ca/)and Cardiometabolic Care. My main inputs to these projects are:
+Our main research and quality improvement activities focus on two projects: [The Spinal Cord Injury Implementation, Evaluation, and Quality Care Consortium](https://www.sciconsortium.ca/) [](https://www.sciconsortium.ca/)and Cardiometabolic Care. My main inputs to these projects are:
 
 * Conduct economic evaluation of a novel interprofessional rehabilitation practice for patients with spinal cord injury
 * Develop guidelines for conducting systematic reviews in the field of spinal cord injury
