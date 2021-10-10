@@ -19,10 +19,10 @@ feature:
     icon: chart-pie
     icon_pack: fas
     name: Interactive Visualization
-  - description: ""
-    icon: chalkboard-teacher
-    icon_pack: fas
-    name: Teaching
+  #- description: ""
+  #  icon: chalkboard-teacher
+  #  icon_pack: fas
+  #  name: Teaching
   - description: ""
     icon: pen-nib
     icon_pack: fas
