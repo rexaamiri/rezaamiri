@@ -14,7 +14,7 @@ feature:
   - description: ""
     icon: dollar-sign
     icon_pack: fas
-    name: Cost Analysis
+    name: Economic Evaluation
   - description: ""
     icon: pen-nib
     icon_pack: fas
