@@ -1,166 +1,70 @@
 ---
-title: Slides
-summary: An introduction to using Wowchemy's Slides feature.
-authors: []
+title: Introduction to Meta-Analysis with R
+summary: In this session, I will briefly introduce how to conduct a meta-analysis using R and meta and metafor packages.
+authors: [Mohammadreza Amiri]
 tags: []
 categories: []
-date: "2019-02-05T00:00:00Z"
+date: "2021-10-26T12:00:00Z"
 slides:
-  # Choose a theme from https://github.com/hakimel/reveal.js#theming
-  theme: black
-  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
-  #   Light style: github. Dark style: dracula (default).
+  theme: white
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Wowchemy
+```{r packages, include=FALSE}
+# install.package("tidyverse", "meta", "metafor", "openxlsx")
+library(tidyverse)
+library(meta)
+library(metafor)
+library(openxlsx)
+```
 
-[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
+# Forest Plot Using meta Package
 
----
+```{r, fig.align='center', fig.height=5, fig.width=10, fig.cap="Forest Plot Using meta Package"}
+nfr <- read.xlsx(xlsxFile = "https://github.com/rexaamiri/MetaAnalysis/blob/main/NFR_v_Control_final.xlsx")
 
-## Features
+nfrModel <- metacont(data=nfr, 
+                     n.e = ss1, 
+                     mean.e = m1, 
+                     sd.e = sd1, 
+                     n.c = ss2, 
+                     mean.c = m2, 
+                     sd.c = sd2,
+                     studlab = Study.Label, 
+                     sm = "SMD")
 
-- Efficiently write slides in Markdown
-- 3-in-1: Create, Present, and Publish your slides
-- Supports speaker notes
-- Mobile friendly slides
-
----
-
-## Controls
-
-- Next: `Right Arrow` or `Space`
-- Previous: `Left Arrow`
-- Start: `Home`
-- Finish: `End`
-- Overview: `Esc`
-- Speaker notes: `S`
-- Fullscreen: `F`
-- Zoom: `Alt + Click`
-- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
-
----
-
-## Code Highlighting
-
-Inline code: `variable`
-
-Code block:
-```python
-porridge = "blueberry"
-if porridge == "blueberry":
-    print("Eating...")
+forest(x = nfrModel, comb.random = F, digits.mean = 1, digits.sd = 1)
 ```
 
 ---
 
-## Math
+# Funnel Plot Using metafor Package
 
-In-line math: $x + y = z$
+A [funnel plot](https://en.wikipedia.org/wiki/funnel%20plot "https://en.wikipedia.org/wiki/funnel plot") shows the observed effect sizes or outcomes on the x-axis against a precision measure of the observed effect sizes on the y-axis. In metafor package, the recommended choice for the y-axis is the standard error (in decreasing order) which is in line with @Sterne2001. If there is no publication bias or heterogeneity among studies, the expectation is to see all points to fall within the pseudo-confidence shape funnel, i.e., the triangle shape funnel for the case of standard errors on the y-axis.
 
-Block math:
-
-$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$
-
----
-
-## Fragments
-
-Make content appear incrementally
-
-```
-{{%/* fragment */%}} One {{%/* /fragment */%}}
-{{%/* fragment */%}} **Two** {{%/* /fragment */%}}
-{{%/* fragment */%}} Three {{%/* /fragment */%}}
-```
-
-Press `Space` to play!
-
-{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-
----
-
-A fragment can accept two optional parameters:
-
-- `class`: use a custom style (requires definition in custom CSS)
-- `weight`: sets the order in which a fragment appears
-
----
-
-## Speaker Notes
-
-Add speaker notes to your presentation
-
-```markdown
-{{%/* speaker_note */%}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{%/* /speaker_note */%}}
-```
-
-Press the `S` key to view the speaker notes!
-
-{{< speaker_note >}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{< /speaker_note >}}
-
----
-
-## Themes
-
-- black: Black background, white text, blue links (default)
-- white: White background, black text, blue links
-- league: Gray background, white text, blue links
-- beige: Beige background, dark text, brown links
-- sky: Blue background, thin dark text, blue links
-
----
-
-- night: Black background, thick white text, orange links
-- serif: Cappuccino background, gray text, brown links
-- simple: White background, black text, blue links
-- solarized: Cream-colored background, dark green text, blue links
-
----
-
-{{< slide background-image="/media/boards.jpg" >}}
-
-## Custom Slide
-
-Customize the slide style and background
-
-```markdown
-{{</* slide background-image="/media/boards.jpg" */>}}
-{{</* slide background-color="#0000FF" */>}}
-{{</* slide class="my-style" */>}}
+```{r funnel-plot, fig.align='center', fig.cap="Common Funnel Plots"}
+funnel(res, main="Standard Error")
+funnel(res, yaxis="seinv", main="Inverse Standard Error")
 ```
 
 ---
 
-## Custom CSS Example
+# Funnel Plot Using meta Package
 
-Let's make headers navy colored.
+```{r funnel-plot-meta, fig.align='center', fig.cap="Common Funnel Plots Using meta Package"}
+nfr <- read.xlsx(xlsxFile = "NFR_v_Control_final.xlsx")
 
-Create `assets/css/reveal_custom.css` with:
+nfrModel <- metacont(data=nfr, 
+                     n.e = ss1, 
+                     mean.e = m1, 
+                     sd.e = sd1, 
+                     n.c = ss2, 
+                     mean.c = m2, 
+                     sd.c = sd2,
+                     studlab = Study.Label, 
+                     sm = "SMD")
 
-```css
-.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
+meta::funnel.meta(nfrModel, 
+                  contour.levels = c(0.9, 0.95, 0.99), yaxis = "invvar")
 ```
-
 ---
-
-# Questions?
-
-[Ask](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
-
-[Documentation](https://wowchemy.com/docs/managing-content/#create-slides)
