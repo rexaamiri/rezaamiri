@@ -23,6 +23,14 @@ feature:
     icon: chalkboard-teacher
     icon_pack: fas
     name: Teaching
+  - description: ""
+    icon: pen-nib
+    icon_pack: fas
+    name: Academic Writing
+  - description: ""
+    icon: comments
+    icon_pack: fas
+    name: Effective Communication
 design:
   background:
     text_color_light: false
