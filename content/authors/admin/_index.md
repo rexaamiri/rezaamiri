@@ -5,9 +5,10 @@ avatar_filename: mrezapic.jpg
 bio: Economic evaluation, evidence synthesis, and interactive visual analytics
   are my main research interests.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Economic Evaluation
+  - Interactive Visual Analytics
+  - Evidence Synthesis
+  - Quantitative Analysis
 social:
   - icon: envelope
     icon_pack: fas
