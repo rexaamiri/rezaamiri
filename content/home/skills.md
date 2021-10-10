@@ -12,13 +12,9 @@ feature:
     icon_pack: fab
     name: R
   - description: ""
-    icon: chart-line
+    icon: analytics
     icon_pack: fas
-    name: Statistics
-  - description: ""
-    icon: chart-pie
-    icon_pack: fas
-    name: Interactive Visualization
+    name: Cost Analysis
   - description: ""
     icon: pen-nib
     icon_pack: fas
