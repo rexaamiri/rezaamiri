@@ -1,77 +1,70 @@
 ---
-# Display name
-title: Nelson Bighetti
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
+title: Mohammadreza (Reza) Amiri
+role: Postdoctoral Fellow at KITE Toronto Rehab Institute
+avatar_filename: mrezapic.jpg
+bio: Economic evaluation, evidence synthesis, and interactive visual analytics
+  are my main research interests.
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-# Education to show in About widget
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: /#contact
+    label: Contact
+    display:
+      header: true
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/RexaAmiri
+    label: Twitter
+    display:
+      header: true
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://pubmed.ncbi.nlm.nih.gov/?term=Mohammadreza+Amiri%5BAuthor%5D&sort=date
+    label: My Publication
+    display:
+      header: true
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/rexaamiri
+    display:
+      header: true
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/mramiri/
+    label: LinkedIn
+    display:
+      header: true
+organizations:
+  - name: KITE-Toronto Rehabilitation Institute, University Health Network
+    url: https://www.kite-uhn.com/
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
-
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
+    - course: PhD in Health Economics
+      institution: University Malaya
+      year: 2016
+    - course: M.Sc. in Economics
+      institution: University Malaya
+      year: 2011
+    - course: B.A. in Business Economics
+      institution: Allameh Tabatabai University
+      year: 2008
+email: mrezaxamiri@gmail.com
+superuser: true
 highlight_name: true
 ---
+I am currently a postdoctoral fellow at KITE Toronto Rehabilitation Institute, University Health Network, under the supervision of Dr. Cathy Craven who is a senior scientist at TRI and a professor at the University of Toronto. 
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+* Applied knowledge and experience in evidence synthesis (SLR, MA, NMA) of economic and medical literature 
+* Screening, data abstraction, quality appraisal, generalizability evaluation, summarization, and analysis of literature
+* Knowledge and experience in economic evaluation modeling including CEA, CUA, and CBA
+* Expert in data visualization and quantitative data analysis
+
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
