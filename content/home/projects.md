@@ -31,6 +31,10 @@ content:
     tag: Consortium
   - name: Economic Evaluation
     tag: Economic Evaluation
+  - name: Quantitative Analysis
+    tag: Quantitative Analysis
+  - name: Interactive Visual Analytics
+    tag: Visual Analytics
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -41,7 +45,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 2
+  view: 1
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
