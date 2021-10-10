@@ -1,6 +1,6 @@
 ---
 widget: featurette
-widget_id: RECENT-POSTS
+widget_id: skills
 headless: true
 weight: 30
 title: Skills
@@ -19,10 +19,6 @@ feature:
     icon: chart-pie
     icon_pack: fas
     name: Interactive Visualization
-  #- description: ""
-  #  icon: chalkboard-teacher
-  #  icon_pack: fas
-  #  name: Teaching
   - description: ""
     icon: pen-nib
     icon_pack: fas
