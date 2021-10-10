@@ -1,6 +1,6 @@
 ---
 widget: featurette
-widget_id: Post
+widget_id: RECENT-POSTS
 headless: true
 weight: 30
 title: Skills
@@ -21,5 +21,6 @@ feature:
     name: Photography
 design:
   background:
-    text_color_light: true
+    text_color_light: false
+    image_darken: 0
 ---
