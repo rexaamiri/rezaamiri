@@ -1,5 +1,5 @@
 ---
-title: Mohammadreza (Reza) Amiri
+title: Mohammadreza Amiri
 role: Postdoctoral Fellow at KITE Toronto Rehab Institute
 avatar_filename: mrezapic.jpg
 bio: Economic evaluation, evidence synthesis, and interactive visual analytics
