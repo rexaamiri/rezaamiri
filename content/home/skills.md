@@ -15,10 +15,14 @@ feature:
     icon: chart-line
     icon_pack: fas
     name: Statistics
-  - description: 10%
-    icon: camera-retro
+  - description: 100%
+    icon: chart-pie
     icon_pack: fas
-    name: Photography
+    name: Interactive Visualization
+  - description: 100%
+    icon: chalkboard-teacher
+    icon_pack: fas
+    name: Teaching
 design:
   background:
     text_color_light: false
