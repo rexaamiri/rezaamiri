@@ -1,7 +1,7 @@
 ---
 title: Mohammadreza Amiri
 role: Postdoctoral Fellow at KITE Toronto Rehab Institute
-avatar_filename: mra.png
+avatar_filename: avatar.png
 bio: Economic evaluation, evidence synthesis, and interactive visual analytics
   are my main research interests.
 interests:
