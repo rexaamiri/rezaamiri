@@ -53,8 +53,9 @@ education:
     - course: B.A. in Business Economics
       institution: Allameh Tabatabai University
       year: 2008
-email: mrezaxamiri@gmail.com
+email: reza.amiri@uhn.ca
 superuser: true
+user_groups: []
 highlight_name: true
 ---
 I am a postdoctoral fellow at KITE Toronto Rehabilitation Institute, University Health Network, under the supervision of Dr. Cathy Craven who is a senior scientist at TRI and a professor at the University of Toronto. 
