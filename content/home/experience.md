@@ -12,8 +12,8 @@ experience:
     description: |-2
         Responsibilities include:
         
-        * Visual Analytics
-        * Modelling
+        * Create interactive visual analytics for health care services in SCI rehabilitation using R Shiny and Power BI
+        * Analyze quantitative data of various SCI domains and report to stakeholders
   - title: Mentor
     company: University of Toronto
     company_url: "https://www.utoronto.ca"
@@ -21,7 +21,11 @@ experience:
     location: Toronto
     date_start: 2019-08-01
     date_end: 2020-03-31
-    description: Mentored undergraduate students in conducting rehabilitation research.
+    description: |-2
+        Responsibilities include:
+                
+        * Organized and guided students' research activities in-line with the University of Toronto's regulations and policies
+        * Evaluated students' performance and reported to the Faculty of Kinesiology and Physical Education, University of Toronto
   - title: Postdoctoral Research Fellow
     company: Taylor's University
     company_url: "https://university.taylors.edu.my"
