@@ -24,10 +24,8 @@ experience:
     description: |-2
         Responsibilities include:
         
-        * Instruct 'Introduction to Meta-Analysis with R'
-        * Develop course materials, datasets for live practice and R programming and share nuances of MA technique
-        * Co-instructed 'Introduction to Statistics in Health and Medical Sciences using R' to postgraduate and postdoctoral fellows
-        * Prepared and demonstrated hands-on experience in R programming and resolved issues on-the-spot
+        * Instruct 'Introduction to Meta-Analysis with R' and co-instructed 'Introduction to Statistics in Health and Medical Sciences using R' to postgraduate and postdoctoral fellows
+        * Develop course materials, datasets for live practice and R programming and share nuances of statistical analysis and MA technique
   - title: Lecturer
     company: UCSI University
     company_url: "https://www.ucsiuniversity.edu.my"
