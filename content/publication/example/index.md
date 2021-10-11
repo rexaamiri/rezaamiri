@@ -54,12 +54,8 @@ publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-<!--StartFragment -->
-
 {{% callout note %}}
 
 Click the \*Cite\* button above to import publication metadata into your reference management software or click the \*DOI\* button to open the journal's website for further details and full-text of the article.
 
 {{% /callout %}}
-
-<!--EndFragment -->
