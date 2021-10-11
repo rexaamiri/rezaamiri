@@ -1,5 +1,5 @@
 ---
-widget: pages
+widget: experience
 widget_id: teachings
 headless: true
 weight: 100
