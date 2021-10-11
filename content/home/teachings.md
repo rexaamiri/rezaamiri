@@ -1,5 +1,5 @@
 ---
-widget: slider
+widget: experience
 active: true
 date_format: Jan 2006
 experience:
