@@ -26,7 +26,7 @@ experience:
     company: Taylor's University
     company_url: "https://university.taylors.edu.my"
     company_logo: taylors
-    location: Toronto
+    location: Selangor, Malaysia
     date_start: 2018-04-01
     date_end: 2018-12-31
     description: |-2
