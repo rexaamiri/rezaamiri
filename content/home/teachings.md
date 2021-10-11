@@ -1,7 +1,6 @@
 ---
 widget: experience
 active: true
-interval: '3s
 date_format: Jan 2006
 experience:
   - title: Instructor
