@@ -19,7 +19,7 @@ experience:
     company_logo: KITE
     location: Toronto, Canada
     date_start: 2021-10-26
-    date_end: "2021-10-26"
+    date_end: ""
     description: |-2
         Responsibilities include:
         
