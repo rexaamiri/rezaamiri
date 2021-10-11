@@ -11,6 +11,7 @@ authors:
   - Awang Bulgiba
   - Hazreen Abdul Majid
 doi: 10.1155/2015/516984
+publication: BioMed Research International
 abstract: We aimed to predict the ten-year cardiovascular disease (CVD) risk
   among low-income urban dwellers of metropolitan Malaysia. Participants were
   selected from a cross-sectional survey conducted in Kuala Lumpur. To assess
