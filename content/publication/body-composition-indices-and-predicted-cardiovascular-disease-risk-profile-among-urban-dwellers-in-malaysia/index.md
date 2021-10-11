@@ -11,6 +11,7 @@ authors:
   - Maznah Dahlui
   - Hazreen Abdul Majid
 doi: 10.1155/2015/174821
+publication: BioMed Research International
 abstract: >-
   Objectives: This study aims to compare various body composition indices and
   their association with a predicted cardiovascular disease (CVD) risk profile
