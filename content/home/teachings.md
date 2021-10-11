@@ -18,8 +18,20 @@ experience:
     company_url: "https://www.kite-uhn.com/"
     company_logo: KITE
     location: Toronto, Canada
-    date_start: 2018-08-01
-    date_end: "2018-09-31"
+    date_start: 2021-10-26
+    date_end: "2021-10-26"
+    description: |-2
+        Responsibilities include:
+        
+        * Instruct 'Introduction to Meta-Analysis with R'
+        * Develop course materials, datasets for live practice and R programming and share nuances of MA technique
+  - title: Instructor
+    company: KITE Toronto Rehabilitation Institute
+    company_url: "https://www.kite-uhn.com/"
+    company_logo: KITE
+    location: Toronto, Canada
+    date_start: 2019-08-01
+    date_end: "2019-09-31"
     description: |-2
         Responsibilities include:
         
