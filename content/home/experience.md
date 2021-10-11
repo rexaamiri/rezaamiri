@@ -8,7 +8,7 @@ experience:
     company_logo: KITE
     location: Toronto
     date_start: 2019-05-19
-    date_end: ""
+    date_end: "2022-03-31"
     description: |-2
         Responsibilities include:
         
@@ -22,6 +22,18 @@ experience:
     date_start: 2019-08-01
     date_end: 2020-03-31
     description: Mentored undergraduate students in conducting rehabilitation research.
+  - title: Postdoctoral Research Fellow
+    company: Taylor's University
+    company_url: "https://university.taylors.edu.my"
+    company_logo: taylors
+    location: Toronto
+    date_start: 2018-04-01
+    date_end: 2018-12-31
+    description: |-2
+        Responsibilities include:
+        
+        * Developed a CEA model for a combination therapy in infants
+        * Conducted several workshops about conducting CEA in TreeAge and statistical modelling using Stata and SPSS
 widget_id: experience
 headless: true
 weight: 40
