@@ -8,7 +8,7 @@ experience:
     company_logo: KITE
     location: Toronto
     date_start: 2019-05-19
-    date_end: "2022-03-31"
+    date_end: ""
     description: |-2
         Responsibilities include:
         
