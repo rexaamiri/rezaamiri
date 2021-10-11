@@ -13,6 +13,18 @@ design:
     image_darken: 0
 date_format: Jan 2006
 experience:
+  - title: Instructor
+    company: KITE Toronto Rehabilitation Institute
+    company_url: "https://www.kite-uhn.com/"
+    company_logo: KITE
+    location: Toronto, Canada
+    date_start: 2018-08-01
+    date_end: "2018-09-31"
+    description: |-2
+        Responsibilities include:
+        
+        * Co-instructed 'Introduction to Statistics in Health and Medical Sciences using R' to postgraduate and postdoctoral fellows
+        * Prepared and demonstrated hands-on experience in R programming and resolved issues on-the-spot
   - title: Lecturer
     company: UCSI University
     company_url: "https://www.ucsiuniversity.edu.my"
