@@ -20,8 +20,8 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: Cerulean.Analytics@gmail.com
-phone: 888 888 88 88
+email: Reza.Amiri@uhn.ca
+#phone: 888 888 88 88
 address:
   street: 520 Sutherland Drive
   city: Toronto
@@ -32,7 +32,7 @@ address:
 coordinates:
   latitude: ''
   longitude: ''
-directions: Enter the hospital and ask for CravenLab
+directions: Enter the hospital and ask for the CravenLab
 office_hours:
   - 'Monday to Friday 08:00 to 16:00'
 appointment_url: ''
