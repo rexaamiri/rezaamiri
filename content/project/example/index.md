@@ -1,7 +1,8 @@
 ---
 slides: example
 url_pdf: ""
-title: Spinal Cord Injury Implementation, Evaluation, and Quality Care Consortium
+title: Spinal Cord Injury Implementation, Evaluation, and Quality Care
+  Consortium (SCI-IEQCC)
 summary: |-
   Operational Values:
 
@@ -16,7 +17,7 @@ categories:
   - SCI-IEQCC
 external_link: ""
 url_slides: ""
-subtitle: SCI-IEQCC
+subtitle: ""
 tags:
   - Consortium
 links:
@@ -26,8 +27,9 @@ links:
     url: https://twitter.com/SCIIEQCC
 image:
   caption: The Consortium website
-  focal_point: CENTER
+  focal_point: SMART
   filename: sci-ieqcc.png
+  preview_only: true
 url_code: ""
 ---
 
