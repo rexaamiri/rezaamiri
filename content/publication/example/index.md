@@ -33,8 +33,9 @@ url_project: ""
 publication_short: JSCM
 url_source: ""
 url_video: ""
-title: Systematic reviews in spinal cord injury
-subtitle: A step-by-step guide for rehabilitation science learners and clinicians
+title: "Systematic reviews in spinal cord injury: A step-by-step guide for
+  rehabilitation science learners and clinicians"
+subtitle: ""
 doi: https://doi.org/10.1080/10790268.2021.1923261
 featured: true
 tags:
