@@ -46,7 +46,7 @@ projects: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: true
+  preview_only: false
   filename: ""
 date: 2021-10-11T13:36:31.717Z
 url_slides: ""
