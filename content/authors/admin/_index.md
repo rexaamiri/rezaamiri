@@ -1,7 +1,7 @@
 ---
 title: Mohammadreza Amiri
 role: Postdoctoral Fellow
-avatar_filename: avatar.png
+avatar_filename: avatar.jpg
 bio: Economic evaluation, evidence synthesis, and interactive visual analytics
   are my main research interests.
 interests:
