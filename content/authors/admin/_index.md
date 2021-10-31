@@ -68,4 +68,4 @@ Our main research and quality improvement activities focus on two projects: [The
 * Conduct statistical analyses of the quality of health care data and co-author reports to the Ministry
 * Develop, maintain, and manage the database of collected data from six domains and the NRS dataset
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/M AMIRI_CV_2021 10 30.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/M AMIRI_CV_2021 10 30.pdf" "newtab" >}}CV{{< /staticref >}}.
