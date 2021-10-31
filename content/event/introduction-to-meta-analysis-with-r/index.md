@@ -11,7 +11,7 @@ publishDate: 2021-10-31T01:18:23.849Z
 draft: false
 featured: true
 image:
-  filename: ""
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
