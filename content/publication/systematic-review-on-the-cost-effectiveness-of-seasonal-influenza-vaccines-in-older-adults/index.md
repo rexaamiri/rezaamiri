@@ -6,8 +6,7 @@ publication_types:
 authors:
   - W. Loong
   - D.
-  - Amiri
-  - M.
+  - admin
   - Saunders
   - H.
   - Mishra
